@@ -5,11 +5,11 @@
 
 #devtools::install_github("bitmask/NEMpipeline")
 
-library(NEMpipeline)
+#library(NEMpipeline)
 
-# source("030_diffexp.er.R")
-# source("040_prepare_data.R")
-# source("050_nems.R")
+source("030_diffexp.er.R")
+source("040_prepare_data.R")
+source("050_nems.R")
 
 run_E2V2_pipeline <- function() {
 

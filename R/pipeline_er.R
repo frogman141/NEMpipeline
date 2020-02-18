@@ -3,7 +3,7 @@
 # execute the analysis pipeline for the ER data
 # each step will write intermediate output files to disk
 
-library(NEMpipeline)
+# library(NEMpipeline)
 
 run_ER_pipeline <- function() {
 
