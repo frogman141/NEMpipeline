@@ -1,0 +1,39 @@
+Package: NEMpipeline
+Type: Package
+Title: Pipeline to run various NEM and non-NEM methods on simulated and 2 experimental datasets
+Version: 0.0.0.9000
+Date: 2019-03-19
+Authors@R: c(person("Helen", "Cook", email = "helen.cook@cruk.cam.ac.uk", role = c("aut", "cre"), comment = c(ORCID="0000-0002-2659-3727")),
+             person("Simon", "Wengert", email = "", role = c("aut"), comment = c())
+            )
+Author: Helen Cook <helen.cook@cruk.cam.ac.uk>
+Maintainer: Helen Cook <helen.cook@cruk.cam.ac.uk>
+Description: Pipeline to run various NEM and non-NEM methods on simulated and 2 experimental datasets
+Depends: R (>= 3.5.0)
+BiocViews:
+Imports:
+    usethis,
+    Rsubread,
+    Rsamtools,
+    edgeR,
+    DESeq2,
+    annotate,
+    org.Hs.eg.db,
+    pheatmap,
+    fgsea,
+    ggplot2,
+    nem,
+    CellNOptR,
+    utils,
+    RColorBrewer
+Suggests:
+    bnem,
+    lem,
+    mnem
+
+
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+RoxygenNote: 6.1.0
